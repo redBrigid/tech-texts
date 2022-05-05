@@ -1,0 +1,6 @@
+HOW TO ADD ICONS I WANT IN IONIC PROJECT
+
+I need to import { IonIcon} from '@ionic/react'
+Import icons I want, for example import { ellipse, square, triangle, diceOutline, fileTrayFullOutline, briefcaseOutline } from 'ionicons/icons';
+And now I can use the like this: <IonIcon icon={diceOutline} />
+
