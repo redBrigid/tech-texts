@@ -1,6 +1,17 @@
-HOW TO ADD ICONS I WANT IN IONIC PROJECT
+HOW TO ADD ICONS I WANT IN IONIC PROJECT?
 
 I need to import { IonIcon} from '@ionic/react'
 Import icons I want, for example import { ellipse, square, triangle, diceOutline, fileTrayFullOutline, briefcaseOutline } from 'ionicons/icons';
 And now I can use the like this: <IonIcon icon={diceOutline} />
 List of icons is here: https://ionic.io/ionicons
+
+HOW TO DISPLAY IONIC BLOCK ELEMENTS IN ROW?
+
+It can't be done just by changing block display to inline in CSS.
+For putting elements one by another is used grid.
+In React I need to import IonGrid, IonRow and IonCol.
+Columns can have integer size from 1 to 12 (but can be overwriten to another max value in sass predefined variables).
+By default the size of all elements in row is equal but I can manually set column's size:
+<IonCol size="5">
+What means that this column will take 5 units of 12.
+
