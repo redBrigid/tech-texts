@@ -15,3 +15,8 @@ By default the size of all elements in row is equal but I can manually set colum
 <IonCol size="5">
 What means that this column will take 5 units of 12.
 
+WHAT IS VSC SCHORTCUT FOR REACT COMPONENTS?
+
+rcc - React Class Component
+rfc - React Function Component
+
